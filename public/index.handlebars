@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Chat - Login</title>
+</head>
+<body>
+    <div class="form--container">
+
+        <form action="/" method="post">
+            <div class="form--items">
+                <h1>Boas vindas de volta!</h1>
+                <p>Estamos muito animados em ver você novamente</p>
+            </div>
+            <div class="form--items" id="inputs">
+                <label for="email">E-MAIL OU NÚMERO DE TELEFONE</label>
+                <input type="text" autocomplete="off" id="inputEmail" required autocorrect="off" name="email" id="email">
+                <div id="test1"></div>
+            </div>
+            <div class="form--items" id="inputs">
+                <label for="senha">SENHA</label>
+                <input type="password" spellcheck="false" id="inputSenha" required autocomplete="off" name="senha" id="senha">
+                <div id="test2"></div>
+                <a href="http://"><span>Esqueceu sua senha?</span></a>
+            </div>
+            <div class="form--items" id="inputs">
+                <input type="submit" value="Entrar" id="submit" style="cursor: pointer; background: red; color: white;">
+                <span>Precisando de uma conta? <a href="./cadastro.html">Registre-se</a></span>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="App.js"></script>
+</html>

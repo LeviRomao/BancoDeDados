@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Chat - cadastro</title>
+</head>
+<body>
+    <div class="form--container">
+        <form action="./registrar" method="post">
+            
+                <div class="form--items">
+                    <h1>Boas vindas de volta!</h1>
+                    <p>Estamos muito animados em ver você novamente</p>
+                </div>
+                <div class="form--items" id="inputs">
+                    <label for="nome">NOME DE USUÁRIO</label>
+                    <input type="text" name="nome" autocomplete="off" required autocorrect="off">
+                </div>
+                <div class="form--items" id="inputs">
+                    <label for="email">E-MAIL OU NÚMERO DE TELEFONE</label>
+                    <input type="text" autocomplete="off" required autocorrect="off" name="email">
+                </div>
+                <div class="form--items" id="inputs">
+                    <label for="senha">SENHA</label>
+                    <input type="password" spellcheck="false" required autocomplete="off" name="senha">
+                    
+                </div>
+                <div class="form--items" id="inputs">
+                    <input type="submit" value="Entrar" style="cursor: pointer; background: red; color: white;">
+                </div>
+            
+        </form>
+    </div>
+</body>
+</html>
